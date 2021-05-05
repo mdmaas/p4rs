@@ -1,4 +1,4 @@
-# Python 4 Remote Sensing Scripts (p4rs)
+# Python for Remote Sensing Scripts (p4rs)
 - Automatically download remote sensing (and some weather models) data. 
 - Open various file formats
 - Clip to area of interest
