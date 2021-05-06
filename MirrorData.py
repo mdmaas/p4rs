@@ -13,7 +13,7 @@ baseurls = ['https://gpm1.gesdisc.eosdis.nasa.gov/data/GPM_L3/GPM_3IMERGM.06/',
 
 def getLinks(url):
     print("Getting links from: " + url)
-    page = requests.get(url)
+    page = session.get(url)
     html = page.content.decode("utf-8")
     tree = etree.parse(StringIO(html), parser=etree.HTMLParser())
     refs = tree.xpath("//a")    
@@ -34,6 +34,7 @@ def isHDFFile(l):
     return any([l.lower().endswith(e.lower()) for e in ext])   
 
 for url in baseurls:
+    session = requests.Session()
     basedir = pathlib.PurePath(url).name 
     links = getLinks(url)
     ldates = [l for l in links if isDate(l)]
@@ -48,8 +49,8 @@ for url in baseurls:
             else:
                 print("File doesn't exist: " + filepath )
                 print("Downloading... " + url + d + f)
-                f = requests.get(url + d + f)
-                time.sleep(2)
+                f = session.get(url + d + f)
+                time.sleep(1)
                 pathlib.Path(folder).mkdir(parents=True, exist_ok=True)
                 open(filepath, 'wb').write(f.content)
         
