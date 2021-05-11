@@ -5,5 +5,5 @@
 - Perform point-in-polygon tests.
 - Assemble time series for a given shapefile.
 
-Check out the "Python for Remote Sensing" tutorials at: [Mattec Software](https://www.mattecsoftware.com/remotesensing.html).
+Check out some of our "Python for Remote Sensing" tutorials at: [MatecDev](https://www.matecdev.com/geospatial-analysis.html).
 
