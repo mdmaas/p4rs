@@ -8,9 +8,8 @@
 For the moment, this package only contains a download script for some IMERG, MODIS and SMAP
 data, documented in this post:
 
-[How to download remote sensing data](https://www.matecdev.com/posts/download-remote-sensing-data-python.html)
-
 Check out some other Geospatial analysis tutorials at: 
-[MatecDev](https://www.matecdev.com/categories/geospatial-analysis.html).
+MatecDev.com, starting with:
+[How to download remote sensing data](https://www.matecdev.com/posts/download-remote-sensing-data-python.html)
 
 More updates are coming, so stay tuned!
