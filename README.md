@@ -9,7 +9,7 @@ For the moment, this package only contains a download script for some IMERG, MOD
 data, documented in this post:
 
 Check out some other Geospatial analysis tutorials at: 
-[MatecDev.com](https:/www.MatecDev.com), starting with:
+[MatecDev.com](https://www.MatecDev.com), starting with:
 [How to download remote sensing data](https://www.matecdev.com/posts/download-remote-sensing-data-python.html)
 
 More updates are coming, so stay tuned!
