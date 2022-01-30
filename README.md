@@ -5,11 +5,10 @@
 - Perform point-in-polygon tests.
 - Assemble time series for a given shapefile.
 
-For the moment, this package only contains a download script for some IMERG, MODIS and SMAP
-data, documented in this post:
+For the moment, this package only contains a set of scripts documented in the following posts:
 
-Check out some other Geospatial analysis tutorials at: 
-[MatecDev.com](https://www.MatecDev.com), starting with:
 [How to download remote sensing data](https://www.matecdev.com/posts/download-remote-sensing-data-python.html)
+[Download an Https Directory with Authentication in Python](https://www.matecdev.com/posts/login-download-files-python.html)
+[How to Run Fast Point-in-Polygon Tests with Python](https://www.matecdev.com/posts/point-in-polygon.html)
 
 More updates are coming, so stay tuned!
