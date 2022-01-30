@@ -7,8 +7,8 @@
 
 For the moment, this package only contains a set of scripts documented in the following posts:
 
-[How to download remote sensing data](https://www.matecdev.com/posts/download-remote-sensing-data-python.html)
-[Download an Https Directory with Authentication in Python](https://www.matecdev.com/posts/login-download-files-python.html)
-[How to Run Fast Point-in-Polygon Tests with Python](https://www.matecdev.com/posts/point-in-polygon.html)
+* [How to download remote sensing data](https://www.matecdev.com/posts/download-remote-sensing-data-python.html)
+* [Download an Https Directory with Authentication in Python](https://www.matecdev.com/posts/login-download-files-python.html)
+* [How to Run Fast Point-in-Polygon Tests with Python](https://www.matecdev.com/posts/point-in-polygon.html)
 
 More updates are coming, so stay tuned!
