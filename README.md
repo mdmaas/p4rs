@@ -1,5 +1,5 @@
 # Python for Remote Sensing (p4rs)
-For the moment, this package only contains a set of scripts documented in the following posts:
+This package contains a set of scripts documented in the following posts:
 
 * [How to download remote sensing data](https://www.matecdev.com/posts/download-remote-sensing-data-python.html)
 * [Download an Https Directory with Authentication in Python](https://www.matecdev.com/posts/login-download-files-python.html)
