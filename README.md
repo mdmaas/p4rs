@@ -4,11 +4,4 @@ For the moment, this package only contains a set of scripts documented in the fo
 * [How to download remote sensing data](https://www.matecdev.com/posts/download-remote-sensing-data-python.html)
 * [Download an Https Directory with Authentication in Python](https://www.matecdev.com/posts/login-download-files-python.html)
 * [How to Run Fast Point-in-Polygon Tests with Python](https://www.matecdev.com/posts/point-in-polygon.html)
-
-I have plans to include the following:
-
-- Automatically download remote sensing (and some weather models) data, via Web Scraping NASA and other sites.
-- Open various file formats such as HDF4, HDF5, NetCDF, GeoTIFF.
-- Clip to area of interest.
-- Perform point-in-polygon tests.
-- Assemble time series for a given shapefile.
+* [How to Work with Landsat and Sentinel-2 on AWS with Python](https://www.matecdev.com/posts/landsat-sentinel-aws-s3-python.html)
