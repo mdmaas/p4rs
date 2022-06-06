@@ -84,7 +84,7 @@ for i,item in enumerate(Sentinel_items):
     red_s3 = item.assets['B04']['href']
     nir_s3 = item.assets['B08']['href']
     date = item.properties['datetime'][0:10]
-    print("Sentinel item number " + str(i) + "/" + len(Sentinel_items) + " " + date)
+    print("Sentinel item number " + str(i) + "/" + str(len(Sentinel_items)) + " " + date)
     red = getSubset(red_s3, bbox)
     nir = getSubset(nir_s3, bbox)
     plotNDVI(nir,red,"sentinel/" + date + "_ndvi.png")
@@ -93,7 +93,7 @@ for i,item in enumerate(Landsat_items):
     red_s3 = item['assets']['red']['alternate']['s3']['href']
     nir_s3 = item['assets']['nir08']['alternate']['s3']['href']
     date = item['properties']['datetime'][0:10]
-    print("Landsat item number " + str(i) + "/" + len(Landsat_items) + " " + date)
+    print("Landsat item number " + str(i) + "/" + str(len(Landsat_items)) + " " + date)
     red = getSubset(red_s3, bbox)
     nir = getSubset(nir_s3, bbox)
     plotNDVI(nir,red,"landsat/" + date + "_ndvi.png")
