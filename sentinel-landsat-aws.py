@@ -31,7 +31,8 @@ SentinelSearch = satsearch.Search.search(
     url = "https://earth-search.aws.element84.com/v0",
     intersects = geometry,
     datetime = timeRange,
-    collections = ['sentinel-s2-l2a'] )
+    collections = ['sentinel-s2-l2a-cogs'],
+    query={"eo:cloud_cover":{"lt":5}} )
 
 Sentinel_items = SentinelSearch.items()
 print(Sentinel_items.summary())
